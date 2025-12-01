@@ -11,4 +11,4 @@ echo Aguardando 60 segundos para inicializacao...
 timeout /t 60 /nobreak 
 
 REM Conecta via SSH
-ssh -i "C:\Users\LIGA\Documents\Kali-start\rsa-kali" kali@172.16.51.166 
+ssh -i "Dir" user@IP
