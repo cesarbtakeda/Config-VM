@@ -2,8 +2,8 @@
 SET VM_NAME="kali-linux-2025.3-virtualbox-amd64"
 SET DIR_VM="C:\Program Files\Oracle\VirtualBox\VBoxManage.exe"
 SET IP="Defina-seu-IP"
-SET USR="Defina o seu user"
-SET RSA="C:\Users\LIGA\Documents\Kali-start\rsa-kali"
+SET USR="Defina-o-seu-user"
+SET RSA="Defina-o-caminho-da-rsa"
 
 REM Inicia a máquina virtual
 echo Iniciando a maquina virtual Kali Linux...
