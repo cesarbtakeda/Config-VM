@@ -5,6 +5,7 @@ SET IP="Defina-seu-IP"
 SET USR="Defina-o-seu-user"
 SET RSA="Defina-o-caminho-da-rsa"
 
+cls
 REM Inicia a máquina virtual
 echo Iniciando a maquina virtual Kali Linux...
 %DIR_VM% startvm "%VM_NAME%" --type gui
