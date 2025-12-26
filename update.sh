@@ -48,9 +48,9 @@ sudo go install github.com/tomnomnom/waybackurls@latest && sudo go install githu
 sudo CGO_ENABLED=1 go install github.com/projectdiscovery/katana/cmd/katana@latest && sudo go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 $c
 
-# Customizando terminal
-sudo git clone https://github.com/cesarbtakeda/MyBash-Zshrc.git && cd MyBash-Zshrc
-sudo cp -r zshrc.sh ~/.zshrc && cp -r zshrc.sh /home/$user/.zshrc
+# Customizando terminal - Descomente caso queira customizar
+# sudo git clone https://github.com/cesarbtakeda/MyBash-Zshrc.git && cd MyBash-Zshrc
+# sudo cp -r zshrc.sh ~/.zshrc && cp -r zshrc.sh /home/$user/.zshrc
 
 #Baixando beef e ferramentas de phishing
 git clone https://github.com/cesarbtakeda/H00ks_T0x1na.git && cd H00ks_T0x1na/API-BEEF
