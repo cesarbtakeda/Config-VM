@@ -11,6 +11,9 @@ rmf="sudo rm -rf"
 token="Coloque o token aqui"
 user="nome-de-user-aqui"
 
+echo "deb-src http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware" >> /etc/apt/sources.list
+echo "socks5  127.0.0.1 9050" >> /etc/proxychains4.conf
+
 echo "[*Atualizando arquivos...*]"
 sudo apt-get update -y
 echo "[*Atualização completa*]"
